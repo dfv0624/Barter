@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".RegistrarUser"
+    tools:showIn="@layout/activity_registrar_user">
+
+    <TextView
+        android:id="@+id/ReUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/RUser"
+        android:layout_alignStart="@+id/RPass"
+        android:text="Nombre De Usuario"
+        tools:layout_editor_absoluteX="72dp"
+        tools:layout_editor_absoluteY="103dp"
+        android:textColor="#000"/>
+
+    <EditText
+        android:id="@+id/RPass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="119dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:selectAllOnFocus="false"
+        android:singleLine="false"
+        android:textColorLink="@color/common_google_signin_btn_text_dark_focused"
+        tools:layout_editor_absoluteX="72dp"
+        tools:layout_editor_absoluteY="232dp"
+        android:textColor="#000"/>
+
+    <TextView
+        android:id="@+id/RePass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/RPass"
+        android:layout_marginBottom="174dp"
+        android:text="Contraseña"
+        tools:layout_editor_absoluteX="72dp"
+        tools:layout_editor_absoluteY="205dp"
+        android:textColor="#000"/>
+
+    <EditText
+        android:id="@+id/RUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="212dp"
+        android:backgroundTint="@android:color/darker_gray"
+        android:cursorVisible="true"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:textColor="@android:color/black"
+        android:textColorLink="@android:color/holo_orange_dark"
+        tools:layout_editor_absoluteX="72dp"
+        tools:layout_editor_absoluteY="143dp" />
+
+    <Button
+        android:id="@+id/RegistarUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="49dp"
+        android:text="Crear Mi Cuenta"
+        android:textColor="#000"
+        android:background="@android:color/holo_orange_dark"/>
+
+    <TextView
+        android:id="@+id/textre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="152dp"
+        android:text="Abre una cuenta"
+        android:textColor="#000"
+        android:textSize="40dp"/>
+</RelativeLayout>

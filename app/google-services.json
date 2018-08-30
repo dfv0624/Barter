@@ -1,0 +1,107 @@
+{
+  "project_info": {
+    "project_number": "216475167174",
+    "firebase_url": "https://barter-199604.firebaseio.com",
+    "project_id": "barter-199604",
+    "storage_bucket": "barter-199604.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:216475167174:android:a1015551402d68a8",
+        "android_client_info": {
+          "package_name": "daniel_vasquez.barter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "216475167174-e3ekmduvctitrh4vdnsr3151ur88388b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "daniel_vasquez.barter",
+            "certificate_hash": "c5402bab41974fe28b5cbf7d6a5aaba521ea9086"
+          }
+        },
+        {
+          "client_id": "216475167174-1sgmatmbvjc3q26rk2v1l84lt55ks9oc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDa5NogoN6nfmUSxljw_V9_Decd_yqeGLs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "216475167174-1sgmatmbvjc3q26rk2v1l84lt55ks9oc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:216475167174:android:e94b639403c374ce",
+        "android_client_info": {
+          "package_name": "daniel_vasquez.change"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "216475167174-ls73o7hhn48t99ptvt6naqbb481g5as0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "daniel_vasquez.change",
+            "certificate_hash": "c5402bab41974fe28b5cbf7d6a5aaba521ea9086"
+          }
+        },
+        {
+          "client_id": "216475167174-rqr7mm16pj1tupdgt1jhr8eufoiejf0t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "daniel_vasquez.change",
+            "certificate_hash": "4bb1bd1cd1a45a68fd346958b76cf34899d7ae3b"
+          }
+        },
+        {
+          "client_id": "216475167174-1sgmatmbvjc3q26rk2v1l84lt55ks9oc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDa5NogoN6nfmUSxljw_V9_Decd_yqeGLs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "216475167174-1sgmatmbvjc3q26rk2v1l84lt55ks9oc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="daniel_vasquez.change.Perfil"
+    tools:showIn="@layout/activity_perfil">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="28dp"
+        app:srcCompat="@drawable/hombre" />
+
+    <TextView
+        android:id="@+id/NomPerfil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/imageView2"
+        android:layout_below="@+id/imageView2"
+        android:layout_marginTop="53dp"
+        android:text="Nombre" />
+
+    <TextView
+        android:id="@+id/NombrePer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/NomPerfil"
+        android:layout_marginStart="21dp"
+        android:layout_toEndOf="@+id/NomPerfil"
+        android:text="Daniel Vasquez" />
+
+    <TextView
+        android:id="@+id/TelPerfil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/NomPerfil"
+        android:layout_centerVertical="true"
+        android:text="Numero de Contacto" />
+
+    <TextView
+        android:id="@+id/numeroPerfil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TelPerfil"
+        android:layout_marginTop="11dp"
+        android:layout_toEndOf="@+id/TelPerfil"
+        android:text="3178411963" />
+
+    <Button
+        android:id="@+id/Anuncio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/imageView2"
+        android:layout_below="@+id/numeroPerfil"
+        android:layout_marginTop="21dp"
+        android:text="Mis Anuncios" />
+
+</RelativeLayout>

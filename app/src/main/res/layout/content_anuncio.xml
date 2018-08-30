@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="daniel_vasquez.change.Anuncio"
+    tools:showIn="@layout/activity_anuncio">
+
+    <ImageView
+        android:id="@+id/ImgAnuncio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/DescripcionAnuncio"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="15dp"
+        app:srcCompat="@drawable/carro" />
+
+    <TextView
+        android:id="@+id/DescripcionAnuncio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="65dp"
+        android:text="Descripcion" />
+
+    <TextView
+        android:id="@+id/CambioAnun"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/DescripcionAnuncio"
+        android:layout_below="@+id/DescripcionAnuncio"
+        android:layout_marginTop="43dp"
+        android:text="Lo Cambio Por:" />
+
+    <Button
+        android:id="@+id/Whatsapp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="32dp"
+        android:layout_toStartOf="@+id/Llamar"
+        android:onClick="onClickWhatsapp"
+        android:text="Whatsapp" />
+
+    <Button
+        android:id="@+id/Llamar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/Whatsapp"
+        android:layout_alignBottom="@+id/Whatsapp"
+        android:layout_marginStart="66dp"
+        android:layout_toEndOf="@+id/CambioAnun"
+        android:onClick="onClickLlamada"
+        android:text="LLamar" />
+</RelativeLayout>

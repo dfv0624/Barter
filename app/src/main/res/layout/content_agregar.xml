@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:baselineAligned="false"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="daniel_vasquez.change.Agregar"
+    tools:layout_editor_absoluteY="81dp"
+    tools:showIn="@layout/activity_agregar">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/Title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="70dp"
+                android:layout_marginTop="25dp"
+                android:layout_weight="1"
+                android:text="Titulo" />
+
+            <EditText
+                android:id="@+id/Title1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/Title"
+                android:layout_marginStart="70dp"
+                android:layout_marginTop="25dp"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:textColorLink="@android:color/holo_orange_light" />
+
+            <TextView
+                android:id="@+id/Descripcion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/Title1"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="70dp"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                android:text="Descripcion" />
+
+            <EditText
+                android:id="@+id/Descripcion1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignStart="@+id/Title1"
+                android:layout_below="@+id/Descripcion"
+                android:layout_marginStart="70dp"
+                android:layout_marginTop="25dp"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:textColorLink="@android:color/holo_orange_light" />
+
+            <TextView
+                android:id="@+id/CambioAnun"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/Descripcion1"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="70dp"
+                android:layout_marginTop="25dp"
+                android:layout_weight="1"
+                android:text="Cambio Por:" />
+
+            <EditText
+                android:id="@+id/Cambio1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignStart="@+id/Descripcion1"
+                android:layout_below="@+id/CambioAnun"
+                android:layout_marginStart="70dp"
+                android:layout_marginTop="25dp"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:textColorLink="@android:color/holo_orange_light" />
+
+            <TextView
+                android:id="@+id/selUbic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/Cambio1"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="70dp"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                android:text="Seleccionar Ubicacion:" />
+
+            <TextView
+                android:id="@+id/NumTel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/mapView"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="70dp"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                android:text="Numero Telefono" />
+
+            <EditText
+                android:id="@+id/NumTel1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignStart="@+id/Cambio1"
+                android:layout_below="@+id/NumTel"
+                android:layout_marginStart="70dp"
+                android:layout_marginTop="25dp"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:textColorLink="@android:color/holo_orange_light" />
+
+            <Button
+                android:id="@+id/Enviar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="70dp"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                android:text="Enviar Publicacion" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

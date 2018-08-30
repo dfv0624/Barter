@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Barter</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_menu">Barter Cambios</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_agregar">Agregar Anuncio</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_perfil">Perfil</string>
+    <string name="tarjeta1">cambio Por: Gasolina</string>
+    <string name="tarjeta2">Cambio Por: apuntes de algebra</string>
+    <string name="title_activity_anuncio">Anuncio</string>
+    <string name="title_activity_registrar_user">Registro Usuarios</string>
+
+</resources>
